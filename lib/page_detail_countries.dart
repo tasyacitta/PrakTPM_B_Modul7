@@ -63,6 +63,7 @@ class _PageDetailCountriesState extends State<PageDetailCountries> {
       itemBuilder: (BuildContext context, int index) {
 
         return Card(
+          color: Colors.deepPurple[200],
           clipBehavior: Clip.antiAlias,
           child: Column(
               children: [
